@@ -1,7 +1,7 @@
 import Axios from '../utils/Axios'
 import SummaryApi from '../common/SummaryApi'
 
-const UploadImage = async(image)=>{
+const uploadImage = async(image)=>{
     try {
         const formData = new FormData()
         formData.append('image',image)
@@ -17,4 +17,4 @@ const UploadImage = async(image)=>{
     }
 }
 
-export default UploadImage
+export default uploadImage
