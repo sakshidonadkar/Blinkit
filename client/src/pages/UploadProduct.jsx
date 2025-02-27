@@ -407,7 +407,7 @@ const UploadProduct = () => {
                 </div>
 
                 <button
-                  className='bg-amber-400 hover:bg-yellow-400 py-2 rounded font-semibold'
+                  className='bg-amber-200 hover:bg-yellow-400 py-2 rounded font-semibold'
                 >
                   Submit
                 </button>
